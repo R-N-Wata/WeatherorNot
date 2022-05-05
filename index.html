@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeathrrApp</title>
+    <script src="https://kit.fontawesome.com/47e259ba3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/WeatherApp/css/style.css">
+    
+</head>
+<body>  
+    
+    <main>
+        <h1>Weather Forecast!</h1>
+        <form>
+                <input type="text" name="" value="" placeholder="Enter your location...">
+                <button type="button" name="button"><i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+        
+        <section class="info hidden">
+
+            
+            <canvas class="icon" width="128" height="128"></canvas>
+            <i class="fa-solid weatherIcon"></i>
+            <div>
+              
+            <h3 class="temp"></h3>
+             <h3 class="descrip"></h3> 
+
+            </div>
+           
+        </section>
+      
+      
+
+
+    </main>
+      <div>
+      
+            <ul>
+
+                <li><span>UV</span>
+                    <span>  <i class="fa-solid fa-sun"></i></span>
+                  
+
+                    <span class="uv">0</span>
+                </li>
+
+                <li>
+
+                    <span>Precip</span>
+                    <span><i class="fa-solid fa-droplet"></i></span>
+                    
+                    <span class="precip">0</span>
+                </li>
+
+                <li>
+                    <span>Pressure</span>
+                    <span><i class="fa-brands fa-wpressr"></i></span>
+                    
+                    <span class="pressure">0</span>
+                </li>
+                <li>
+                    <span>Wind Speed</span>
+                    <span><i class="fa-solid fa-wind"></i></span>
+                    <span class="windspeed">0</span>
+                </li>
+
+                <li>
+                    <span>Country</span>
+                    <span> <i class="fa-solid fa-earth-africa"></i></span>
+                   
+                    <span class="country">-</span>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+    <script src="/WeatherApp/skycons.js"></script>
+    <script type="text/javascript" src="/WeatherApp/js/main.js"></script>
+</body>
+</html>

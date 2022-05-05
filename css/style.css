@@ -1,0 +1,157 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  height:100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap:3rem;
+   background: rgb(37,118,126);
+background: linear-gradient(90deg, rgba(37,118,126,1) 35%, rgba(21,178,242,1) 100%, rgba(15,136,246,1) 100%);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+main{
+  margin-top:5rem;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  width:80vw;
+  padding-bottom:3rem;
+  background:rgba(9, 9, 9, 0.8);
+  border-radius:10%;
+  color:white;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+h1 {
+  font-size:1.8rem;
+  text-align:center;
+}
+
+
+.info{
+  width:70%;
+  display:flex;
+  margin-top:2vh;
+  gap:3vw;
+ 
+  
+}
+
+
+.active{
+  display:block;
+}
+
+
+input{
+  width:40vw;
+  height:2rem;
+  border-radius: 15%;
+  background:rgba(44, 43, 43, 0.8);
+  color:white;
+}
+button{
+  background:none;
+  border-radius: 50%;
+  box-shadow: none;
+  height:2rem;
+  color:white;
+
+}
+
+button:hover{
+  background:rgba(72, 72, 72, 0.6)
+}
+
+.weatherIcon{
+  font-size:5rem;
+  margin-top:1rem;
+}
+
+ul{
+  width:80vw;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left:4rem;
+}
+li{
+  list-style: none;
+  margin-top:3rem;
+  font-size:1.1rem;
+  width:100%;
+  gap:2rem;
+  margin-left:-2rem;
+
+}
+li > span{
+  float:left;
+  width:33.33%;
+
+}
+
+
+
+
+footer {
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+/* @media (max-width:800px){
+  .info{
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  main{
+    width:50vw;
+    height:75vh;
+  }
+  h1{
+  font-size:1.7rem;
+  
+}
+h3{
+  font-size:1.1rem;
+}
+} */
