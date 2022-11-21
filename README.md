@@ -3,10 +3,10 @@
 
 <h2>Chapter 1: What is Js </h2>
 
-<p>Commonly mistaken for having a connection with Java, JavaScript is independent of Java. However, the language was designed initially to appeal to the Java audience - offering a lighter alternative.</p>
+Commonly mistaken for having a connection with Java, JavaScript is independent of Java. However, the language was designed initially to appeal to the Java audience - offering a lighter alternative.
 
 
-<p>The language itself is steered by a committee of technical engineers from a broad range of companies  (made of 50 -100 different people) that meet regularly to assess and vote on new changes that need to be implemented and the direction that the language will go.</p>
+The language itself is steered by a committee of technical engineers from a broad range of companies  (made of 50 -100 different people) that meet regularly to assess and vote on new changes that need to be implemented and the direction that the language will go.
 
 <p>They have a 4 stage process for the addition of a new feature. This process is can take anywhere from 6 months to years before a new feature is added to the language.</p> 
 
