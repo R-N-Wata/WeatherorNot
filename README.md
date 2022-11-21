@@ -1,5 +1,5 @@
 
-<h1>JS YDKJSY</h1>
+#JS YDKJSY
 
 <h2>Chapter 1: What is Js </h2>
 
@@ -60,7 +60,7 @@
 
 <h3> Strict mode <h3>
 
-<p>Though some are hesitant when using strict mode as they see it more as a restriction or limitation to what you can code. It should be seen more as a helpful guide for the correct way to do things, this guide essentially helps you to write better code by avoiding slip-ups. To turn on strict mode you can add this to your code</p>
+<p font-size>Though some are hesitant when using strict mode as they see it more as a restriction or limitation to what you can code. It should be seen more as a helpful guide for the correct way to do things, this guide essentially helps you to write better code by avoiding slip-ups. To turn on strict mode you can add this to your code</p>
 
 
 <pre>
