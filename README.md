@@ -1,31 +1,31 @@
 
 # JS YDKJSY
 
-<h2>Chapter 1: What is Js </h2>
+## Chapter 1: What is Js 
 
 Commonly mistaken for having a connection with Java, JavaScript is independent of Java. However, the language was designed initially to appeal to the Java audience - offering a lighter alternative.
 
 
 The language itself is steered by a committee of technical engineers from a broad range of companies  (made of 50 -100 different people) that meet regularly to assess and vote on new changes that need to be implemented and the direction that the language will go.
 
-<p>They have a 4 stage process for the addition of a new feature. This process is can take anywhere from 6 months to years before a new feature is added to the language.</p> 
+They have a 4 stage process for the addition of a new feature. This process is can take anywhere from 6 months to years before a new feature is added to the language. 
 
-<p>JS is run using environments, these could be Node or the web. However, the only environment that dictates the usage of JS is the web. You can notice some differences between the JS used within the scope of the web and the js defined in the specification.</p>
+JS is run using environments, these could be Node or the web. However, the only environment that dictates the usage of JS is the web. You can notice some differences between the JS used within the scope of the web and the js defined in the specification.
 
-<p>An example of this is...</p>
+*An example of this is...*
 
-<p>These are functions or objects that look like JS but aren't defined in the specification. So how are we able to use them? Well, because of the environment that JS is running in, we can access these APIs. So by this definition, these functions and objects must play by the JS rules.</p>
-
-
-<h3>Paradigm:</h3>
-
-<p>Typically paradigm categories include procedural, object-oriented and functional. It is good to note that some languages tend to tip towards one, JS however is multi-paradigm. Meaning you can write all 3.</p>
-
-<p>JS is backwards-compatible meaning you can safely assume whatever code you write now will not suddenly stop working in the future. There cannot be any future changes that can cause your code to be redundant or invalid. Because of any decisions for additions or permanent. HTML and CSS are forward-compatible. Meaning that if you dug up old HTML and ran them, they most likely would not work entirely.</p>
+These are functions or objects that look like JS but aren't defined in the specification. So how are we able to use them? Well, because of the environment that JS is running in, we can access these APIs. So by this definition, these functions and objects must play by the JS rules.
 
 
-<h3>Transpilers</h3>
-<p>With this all said, because JS is not backwards-compatible, there's a chance of a gap in code deemed valid JS. Meaning running a program that uses a new feature in an older engine, the program would likely crash or send multiple errors. As a solution transpilers and pollyfillers are used. An example of one is Babel, which converts from newer JS to an older equivalent.</p>
+## Paradigm:
+
+Typically paradigm categories include procedural, object-oriented and functional. It is good to note that some languages tend to tip towards one, JS however is multi-paradigm. Meaning you can write all 3.
+
+JS is backwards-compatible meaning you can safely assume whatever code you write now will not suddenly stop working in the future. There cannot be any future changes that can cause your code to be redundant or invalid. Because of any decisions for additions or permanent. HTML and CSS are forward-compatible. Meaning that if you dug up old HTML and ran them, they most likely would not work entirely.
+
+
+## Transpilers
+With this all said, because JS is not backwards-compatible, there's a chance of a gap in code deemed valid JS. Meaning running a program that uses a new feature in an older engine, the program would likely crash or send multiple errors. As a solution transpilers and pollyfillers are used. An example of one is Babel, which converts from newer JS to an older equivalent.
 
 
 <pre>
@@ -54,9 +54,9 @@ The language itself is steered by a committee of technical engineers from a broa
 
 </pre>
 
-<p>The first if block uses newer ES6 syntax which is not supported by some browsers and the bottom transpiles that using Babbel and using var to declare the variables - this is supported by older browsers.
+The first if block uses newer ES6 syntax which is not supported by some browsers and the bottom transpiles that using Babbel and using var to declare the variables - this is supported by older browsers.
 
-<p>Even though it would much easier to just declare the variables using the older syntax it is strongly recommended for developers always use the latest versions of JS. This ensures their code is clean. Tools like Babbel should be used to produce forwards-compatible versions of the code - that can be run on the oldest-supported JS engine environments.</p>
+Even though it would much easier to just declare the variables using the older syntax it is strongly recommended for developers always use the latest versions of JS. This ensures their code is clean. Tools like Babbel should be used to produce forwards-compatible versions of the code - that can be run on the oldest-supported JS engine environments.
 
 <h3> Strict mode <h3>
 
@@ -73,7 +73,7 @@ The language itself is steered by a committee of technical engineers from a broa
     </code>
 </pre>
 
-<p>Additionally, this could be added per function block, so you turn on strict mode solely for that function or more commonly - added globally, so you turn on strict mode for your entire program.</p>
+Additionally, this could be added per function block, so you turn on strict mode solely for that function or more commonly - added globally, so you turn on strict mode for your entire program.
 
 
 <h2>Surveying JS</h2>
