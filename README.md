@@ -58,9 +58,9 @@ The first if block uses newer ES6 syntax which is not supported by some browsers
 
 Even though it would much easier to just declare the variables using the older syntax it is strongly recommended for developers always use the latest versions of JS. This ensures their code is clean. Tools like Babbel should be used to produce forwards-compatible versions of the code - that can be run on the oldest-supported JS engine environments.
 
-<h3> Strict mode <h3>
+## Strict mode 
 
-<p font-size>Though some are hesitant when using strict mode as they see it more as a restriction or limitation to what you can code. It should be seen more as a helpful guide for the correct way to do things, this guide essentially helps you to write better code by avoiding slip-ups. To turn on strict mode you can add this to your code</p>
+Though some are hesitant when using strict mode as they see it more as a restriction or limitation to what you can code. It should be seen more as a helpful guide for the correct way to do things, this guide essentially helps you to write better code by avoiding slip-ups. To turn on strict mode you can add this to your code
 
 
 <pre>
