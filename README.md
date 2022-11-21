@@ -230,6 +230,6 @@ They can be embedded in programs using literally.</p>
 <h3>Closure <h3>
 <p>Closures are found all throughout JS. In fact, so much so that they can be considered fundamental to the language like variables or functions or loops. Its importance, however, can be noticed most in a function that returns a callback. A definition can be  found below:</p>
 
-<p>"Closure is when a function remembers and continues to access variables from outside its scope, even when the function is executed in a different scope"</p>
+> "Closure is when a function remembers and continues to access variables from outside its scope, even when the function is executed in a different scope"
 
  
