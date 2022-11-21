@@ -184,7 +184,7 @@ When we think of classes, terms such as 'object-oriented', 'class-oriented' and 
 
 Class Inheritance allows you to share properties and methods without having to rewrite them. It is a mechanism for deleting redundant code - code that repeats itself. 
 
-** example of class inheritance
+*example of class inheritance*
 
 As you can see to create a class inheritance you have to first create the mother class that you want all the children classes to extend from. When creating the child class, you use the extends keys and super(...) keyword. The super(...) keyword allows you to select which properties you want to take from the mother class and use within the child or subclass.
 
@@ -195,7 +195,7 @@ Modules can be seen as having the same goal of grouping together data and behavi
 #### Classic Modules 
 Classic modules are functions. They are an outer function (running at least once) and return an instance of the module, with one or more functions exposed that can operate on the module's instance's internal ( hidden) data.
 
-##example of classic modules
+*example of classic modules*
 
 #### ES Modules
 hese are similar in functionality to the classic modules. The implementation approach does differ.
@@ -230,6 +230,6 @@ So an iterable is a data structure or value that can be iterated over.
 ### Closure
 Closures are found all throughout JS. In fact, so much so that they can be considered fundamental to the language like variables or functions or loops. Its importance, however, can be noticed most in a function that returns a callback. A definition can be  found below:
 
-> "Closure is when a function remembers and continues to access variables from outside its scope, even when the function is executed in a different scope"
+> *"Closure is when a function remembers and continues to access variables from outside its scope, even when the function is executed in a different scope"*
 
  
